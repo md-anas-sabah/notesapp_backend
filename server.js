@@ -18,7 +18,7 @@ app.use(
   cors({
     origin:
       process.env.NODE_ENV === "production"
-        ? "https://your-production-domain.com"
+        ? "https://notesapp-frontend-blue.vercel.app/"
         : "http://localhost:5173",
   })
 );
